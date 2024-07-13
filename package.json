@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "css-loader": "^7.1.2",
+    "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
     "jest": "^29.7.0",
     "style-loader": "^4.0.0",
