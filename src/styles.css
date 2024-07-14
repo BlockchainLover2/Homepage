@@ -159,7 +159,6 @@ footer{
         .left{
             max-width: 500px;
             font-size: 1.6rem;
-            animation: scaleUp 0.2s infinite alternate;
             overflow: hidden;
             display: flex;
             flex-direction: column;
@@ -179,14 +178,6 @@ footer{
 
 }
 
-@keyframes scaleUp {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.02);
-    }
-}
 
 
 
@@ -236,6 +227,7 @@ footer{
         .footer-container{
             flex-direction: column;
             width: 100%;
+            padding: 0;
             .left{
                 align-items: center;
                 max-width: none;
